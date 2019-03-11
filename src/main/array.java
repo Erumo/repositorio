@@ -21,6 +21,7 @@ public class array {
 		for (int i=1; i < array.length; i++) {
 			System.out.println(array[i]*2);
 		}
+	}
 
 	public static void sumararray () {
 		int suma = 0;
