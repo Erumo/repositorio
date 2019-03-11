@@ -11,6 +11,7 @@ public class array {
 		}
 	}
 	
+<<<<<<< HEAD
 	public static void imprimirarray () {
 		for (int i=0; i < array.length; i++) {
 			System.out.println(array[i]); 
@@ -21,6 +22,23 @@ public class array {
 		for (int i=1; i < array.length; i++) {
 			System.out.println(array[i]*2);
 		}
+=======
+	public static void sumararray () {
+		int suma = 0;
+		for (int i=0; i < array.length; i++) {
+			 suma = suma + array[i];
+		}
+		System.out.println(suma);
+	}
+	
+	public static void nuevometodo2 () {
+		int multiplicacion = array[0];
+		for (int i=1; i < array.length; i++) {
+			multiplicacion = multiplicacion * array[i];
+			System.out.println(array[i]);
+		}
+		System.out.println(multiplicacion/333333);
+>>>>>>> rama2
 	}
 	
 	public static int getNumeroAlAzar (int CotaInf,int CotaSup) {
