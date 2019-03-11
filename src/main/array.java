@@ -10,7 +10,7 @@ public class array {
 			array[i] = getNumeroAlAzar(1, 20);
 		}
 	}
-	
+	   
 	public static void imprimirarray () {
 		for (int i=0; i < array.length; i++) {
 			System.out.println(array[i]); 
